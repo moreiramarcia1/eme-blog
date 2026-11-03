@@ -1,13 +1,13 @@
 baseURL = "https://example.org"
 theme = "hugo_theme_adam_eve"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "pt-br"
 # Enable Emoji, regarding https://www.webfx.com/tools/emoji-cheat-sheet/
 enableEmoji = true
 disableKinds = ["taxonomy", "term", "section"]
 
 [params]
-    nohomebar = true
-    showthemetoggle = true
+    nohomebar = false
+    showthemetoggle = false
 
 [module]
   [module.hugoVersion]
@@ -16,11 +16,11 @@ disableKinds = ["taxonomy", "term", "section"]
 
 [Languages]
 [Languages.fr]
-locale = "fr"
+locale = "pt-br"
 title = "À propos d'aquarium"
 
 [Languages.en]
-locale = "en"
+locale = "pt-br"
 title = "About aquarium"
 
 [Languages.fr.params]
