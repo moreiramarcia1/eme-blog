@@ -2,7 +2,7 @@ baseURL = "https://example.org"
 theme = "hugo_theme_adam_eve"
 DefaultContentLanguage = "pt-br"
 # Enable Emoji, regarding https://www.webfx.com/tools/emoji-cheat-sheet/
-enableEmoji = true
+enableEmoji = false
 
 [module]
   [module.hugoVersion]
@@ -11,9 +11,9 @@ enableEmoji = true
 
 [params]
   # nohomebar = do not display a menu on homepage. If false: display it!
-  nohomebar = true
+  nohomebar = false
   # showthemetoggle. If true, display an emoji to switch theme (dark/light/system).
-  showthemetoggle = true
+  showthemetoggle = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -35,7 +35,7 @@ description = "Sharing knowledge wiki"
 
 [markup]
   [markup.highlight]
-    noClasses = true
+    noClasses = false
     style = "manni"
   [markup.tableOfContents]
     endLevel = 6
